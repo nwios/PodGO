@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		89EE33F1DA55CAC7E94DFEC4 /* Pods_PodGO_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9853C07448958D1E8D9F72B /* Pods_PodGO_Tests.framework */; };
+		9DE9A42D1D4781A700402DEE /* NAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE9A42C1D4781A700402DEE /* NAudioPlayer.m */; };
 		F41F66E0FCA10979B4FAF82D /* Pods_PodGO_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB4B649550B94775EF6BB5F /* Pods_PodGO_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,8 @@
 		70852809E5AA733F29BC027E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9323D1D9851686C6C9A4621E /* Pods-PodGO_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodGO_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodGO_Tests/Pods-PodGO_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9DE9A42B1D4781A600402DEE /* NAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAudioPlayer.h; path = ../PodGO/Classes/NAudioPlayer.h; sourceTree = "<group>"; };
+		9DE9A42C1D4781A700402DEE /* NAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAudioPlayer.m; path = ../PodGO/Classes/NAudioPlayer.m; sourceTree = "<group>"; };
 		BAA2DF0668FF7C0D0E924BC9 /* Pods-PodGO_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodGO_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodGO_Tests/Pods-PodGO_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9853C07448958D1E8D9F72B /* Pods_PodGO_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodGO_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,6 +99,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				9DE9A42B1D4781A600402DEE /* NAudioPlayer.h */,
+				9DE9A42C1D4781A700402DEE /* NAudioPlayer.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for PodGO */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -392,6 +397,7 @@
 			files = (
 				6003F59E195388D20070C39A /* NAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* NViewController.m in Sources */,
+				9DE9A42D1D4781A700402DEE /* NAudioPlayer.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
